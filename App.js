@@ -32,7 +32,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    let currency = ['Nickels', 'Dimes', 'Quarters', 'Loonies', 'Toonies', '5$', '10$', '20$', '50$', '100$']; 
+    let currency = ['Nickels', 'Dime', 'Quarters', 'Loonies', 'Toonies', '5$', '10$', '20$', '50$', '100$']; 
     let stateCurrency = ['Nickels', 'Dimes', 'Quarters', 'Loonies', 'Toonies', 'FiveDollar', 'TenDollar', 'TwentyDollar', 'FiftyDollar', 'HundredDollar'];
     let sendToResult = {}; 
 

@@ -203,7 +203,7 @@ export default class Result extends React.Component {
                     bills.excess += bills.hundred.excess*100;
                 }
 
-                console.log('-----------------------------------------------------\n-----------------------------------------------------')
+                console.log('---------------------------------------------------\n-----------------------------------------------------')
                 console.log(`Total coins: ${coinRes.total}`)
                 console.log(`Excess coins: ${coinRes.excess}`)
                 console.log('-----------------------------------------------------\n-----------------------------------------------------')
